@@ -11,12 +11,12 @@ with open('README.md', mode='r') as f:
     readme = f.read()
 
 setup(
-    name="defillama2", 
+    name="defillama2_fork", 
     version=VERSION,
     description='Python client for DefiLlama API',
     long_description=readme,
     long_description_content_type='text/markdown',
-    url='https://github.com/coindataschool/defillama2',
+    url='https://github.com/songchul/defillama2_fork',
     author="Coin Data School",
     author_email="<coindataschool@gmail.com>",
     packages=packages,
