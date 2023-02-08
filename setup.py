@@ -4,7 +4,7 @@ from setuptools import setup
 
 VERSION = '0.7.3'
 
-packages = ['defillama2']
+packages = ['defillama2_fork']
 requires = ['requests>=2.28.1', 'pandas>=1.4.4', 'numpy>=1.22.4']
 
 with open('README.md', mode='r') as f:
